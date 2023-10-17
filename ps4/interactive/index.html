@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="utilities.js" defer></script>
+        <script src="obfuscated-main.js" defer></script>
+        <style>
+
+            body {
+                max-width: 400px;
+                margin-top: 120px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 1.2em;
+                background-color: #431c5d;
+                color: #e6e9f0;
+            }
+            #score {
+                color: #cdd422;
+            }
+            #current-question-text {
+                font-weight: bold;
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+            #submit-button {
+                width: 100%;
+                font-size: 1em;
+            }
+            ul#responses-list {
+                padding: 0px;
+            }
+            ul#responses-list li {
+                list-style: none;
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+            ul#responses-list li:hover {
+                color: #bccbde;
+            }
+            ul#responses-list li label, button#submit-button {
+                display: block;
+            }
+            #progress-bar {
+                width: 100%;
+            }
+            ul#responses-list li.selected.incorrect {
+                color: #e05915;
+                text-decoration: line-through;
+            }
+            ul#responses-list li.correct {
+                color: #cdd422;
+                font-weight: bold;
+            }
+            ul#responses-list li.incorrect:not(.selected) {
+                opacity: 0.4;
+            }
+            #seconds-left {
+                color: #e05915;
+            }
+            #current-question-feedback.correct {
+                color: #cdd422;
+                font-weight: bold;
+            }
+            #current-question-feedback.incorrect {
+                color: #e05915;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="score">Your Score: 0 of 0</div>
+        <div id="current-question-text"></div>
+        <ul id="responses-list"></ul>
+        <div id="current-question-feedback"></div>
+        <button type="submit" id="submit-button">Submit</button>
+        <progress id="progress-bar" value="0" max="100"></progress>
+        <div id="seconds-left"></div>
+    </body>
+</html>
