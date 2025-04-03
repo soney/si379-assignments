@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/si379-assignments/ps6/color-picker/static/css/main.df3c58ac.css",
+    "main.js": "/si379-assignments/ps6/color-picker/static/js/main.64f02c95.js",
+    "index.html": "/si379-assignments/ps6/color-picker/index.html",
+    "main.df3c58ac.css.map": "/si379-assignments/ps6/color-picker/static/css/main.df3c58ac.css.map",
+    "main.64f02c95.js.map": "/si379-assignments/ps6/color-picker/static/js/main.64f02c95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df3c58ac.css",
+    "static/js/main.64f02c95.js"
+  ]
+}

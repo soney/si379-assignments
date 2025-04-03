@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/si379-assignments/ps6/dimension-guesser/static/css/main.75374f7e.css",
+    "main.js": "/si379-assignments/ps6/dimension-guesser/static/js/main.bb643072.js",
+    "index.html": "/si379-assignments/ps6/dimension-guesser/index.html",
+    "main.75374f7e.css.map": "/si379-assignments/ps6/dimension-guesser/static/css/main.75374f7e.css.map",
+    "main.bb643072.js.map": "/si379-assignments/ps6/dimension-guesser/static/js/main.bb643072.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75374f7e.css",
+    "static/js/main.bb643072.js"
+  ]
+}
